@@ -1,16 +1,15 @@
 # adaptive_pokemon_list_sample
 
-A new Flutter project.
+![adaptive_pokemon_list](https://user-images.githubusercontent.com/26202314/136437704-a801771e-088f-4b23-af97-520d4b664fa1.gif)
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+This includes
 
-A few resources to get you started if this is your first Flutter project:
+- Poke API
+- Riverpod
+- StateNotifier
+- [adaptive_components](https://pub.dev/packages/adaptive_components)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## description
+　[【Flutter】material.ioのadaptive系ライブラリを使用してレスポンシブなポケモン図鑑を作る](https://qiita.com/alpha2048/items/fd6d829a23ddd171065d)
