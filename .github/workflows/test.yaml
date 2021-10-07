@@ -6,7 +6,8 @@ on:
       - master
 
 jobs:
-  setup:
+  test:
+    needs: setup
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,8 +18,4 @@ jobs:
         with:
           channel: 'stable'
       - run: flutter pub get
-  test:
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
       - run: flutter test
