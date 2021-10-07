@@ -11,3 +11,4 @@ runs:
       with:
         channel: 'stable'
     - run: flutter pub get
+      shell: bash
