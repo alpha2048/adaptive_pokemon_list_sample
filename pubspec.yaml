@@ -44,7 +44,6 @@ dependencies:
   url_launcher:
 
   adaptive_components:
-  adaptive_navigation:
 
 dev_dependencies:
   flutter_test:
